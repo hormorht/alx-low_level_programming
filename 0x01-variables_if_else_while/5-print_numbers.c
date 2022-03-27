@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	int k;
+	int n;
 
-	for (k = 0; k < 10; k++)
+	for (n = 0;  n < 10; n++)
 	{
-		printf("%k", k);
+		printf("%n" , n);
 	}
 
 		printf("\n");
+
 	return (0);
 }
